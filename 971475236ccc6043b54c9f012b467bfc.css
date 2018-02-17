@@ -1,0 +1,31 @@
+.flag.af div {
+  width: 33.333%;
+  height: 100%;
+  float: left; }
+
+.flag.af .black {
+  background: black; }
+
+.flag.af .red {
+  background: #d32011; }
+
+.flag.af .green {
+  background: #007a36; }
+
+.flag.af img {
+  position: absolute;
+  left: 0;
+  height: 150px;
+  width: 225px; }
+
+body {
+  font-family: sans-serif; }
+
+.flag-wrapper h5 {
+  height: 150px;
+  width: 225px;
+  text-align: center; }
+
+.flag-wrapper .flag {
+  height: 150px;
+  width: 225px; }
