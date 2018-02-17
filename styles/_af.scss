@@ -1,0 +1,22 @@
+.flag.af {
+    div {
+        width: 33.333%;
+        height: 100%;
+        float: left;
+    }
+    .black {
+        background: black;
+    }
+    .red {
+        background: #d32011;
+    }
+    .green {
+        background: #007a36;
+    }
+    img {
+        position: absolute;
+        left: 0;
+        height: $flag-height;
+        width: $flag-width;
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "css-flags",
+  "version": "1.0.0",
+  "description": "All the flags of the world but in CSS.",
+  "main": "index.html",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbhob/css-flags.git"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "publish": "gh-pages -d dist"
+  },
+  "author": {
+    "email": "wilsonhobbs1@gmail.com",
+    "name": "Wilson Hobbs",
+    "url": "http://www.wilsonhobbs.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wbhob/css-flags/issues"
+  },
+  "homepage": "https://github.com/wbhob/css-flags#readme",
+  "dependencies": {
+    "country-list": "^1.1.0",
+    "node-sass": "^4.7.2",
+    "parcel-bundler": "^1.6.1"
+  }
+}

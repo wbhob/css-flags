@@ -1,0 +1,17 @@
+@import 'variables';
+@import 'af';
+body {
+    font-family: sans-serif;
+}
+
+.flag-wrapper {
+    h5 {
+        height: $flag-height;
+        width: $flag-width;
+        text-align: center;
+    }
+    .flag {
+        height: $flag-height;
+        width: $flag-width;
+    }
+}
